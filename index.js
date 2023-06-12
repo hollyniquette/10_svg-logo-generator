@@ -1,6 +1,5 @@
 const inquirer = require("inquirer");
-const fs = require("fs");
-const { Triangle, Circle, Square } = require("./lib/shapes");
+const generateSvg = require("./lib/generateSvg");
 
 const questions = [
   {
@@ -25,3 +24,11 @@ const questions = [
     message: "Enter a shape color",
   },
 ];
+
+inquirer.prompt(questions).then((answers) => {
+  const { text, textColor, shape, shapeColor } = answers;
+
+  generateSvg(text, textColor, shape, shapeColor);
+
+  console.log("Generated logo.svg");
+});
