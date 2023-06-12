@@ -1,5 +1,3 @@
-https://drive.google.com/file/d/1pldmG_h2OOz3Jub6j3MWksmDr7xb8He0/view?usp=sharing
-
 # SVG Logo Generator • ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Table of Contents
@@ -37,6 +35,10 @@ This application uses Jest for testing.
 Install Jest by running the `npm i jest` command in the terminal.
 
 Execute the `npm test` command to run tests for files with **'.test.js'** at the end of the filename.
+
+## Walkthrough Video
+
+A walkthrough demonstration for the application can be viewed [here.](https://drive.google.com/file/d/1pldmG_h2OOz3Jub6j3MWksmDr7xb8He0/view?usp=sharing)
 
 ## License
 
